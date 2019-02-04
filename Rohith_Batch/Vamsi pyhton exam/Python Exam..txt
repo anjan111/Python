@@ -1,0 +1,47 @@
+Q1.Truple:- truple is a immutable,it is a collection of values
+   list:- list is a mutable,in list we don"t have arrays.
+=====================================
+Q2. python is a free
+   ->python is ope source
+   ->python is a dynamic progrmming language
+   ->all programming language feature having in python
+	Eg:-c,c++,java,shell script
+========================
+Q4.pthyon is a ternary operators and it is also a termed as conditional operators
+   >ternary operators is a condition of true and false
+====================================
+Q5.Memory management:- memory management is python contains all python objects and data structures
+=========================
+Q6.dir():-we can use the dir() method to calls the name which are defined in inside the module.
+   help():-help() method calls the built-in Python help system.
+============================================
+Q8.Negative index is used in python to index starting from the last element of the list
+   -1 refers to the last index
+   -2 refers to the second last
+    0 refers to the first index
+=============================
+Q9.range returns a list of numbers created in range() function
+   xrange return a generated objects in xrange function.
+======================
+Q10.x//y
+==============
+sesion 2:-
+
+2.if i=5
+first print i value: i+=10 --->5+10=15
+second print sum : s+=i(intially s=0,i=5) then 0+5=s
+then i=15, sum=5
+like that i=25 sum=20
+          i=35 sum=45
+=========================================
+3.[6,8,4,5]
+=================
+5.first print L=[100,200,300,400,500]
+         values:- 0    1   2  3    4
+L1=L[2:4]----> 300,400
+L2=L[1:5]---->200,300,400,500
+L2.extand(L1)---->200,300,400,500,300,400
+====================================
+6.s,t,r,i,n,g
+======================
+
