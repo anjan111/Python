@@ -1,0 +1,22 @@
+Int ( ) :
+---------
+
+float 	----->	 int ----> success
+
+bool 	---->	 int -----> success
+
+complex 	--> 	int ---> TypeError: can't convert complex to int
+
+str  	-----> 	int ----> ValueError: invalid literal for int() with base 10: 'python'
+
+str	 --->	int -----> success 
+
+None	 ---->      	int ---->TypeError: int() argument must be a string or a number, not 'NoneType'
+
+list	---->	int--->TypeError: int() argument must be a string or a number, not 'list'
+
+tuple	--->	int 
+
+set 	---> 	int
+
+dict	--->	int 

@@ -1,0 +1,19 @@
+float ( ):-
+----------
+int  	---> 	float---> success
+
+complex	---> 	float--->
+
+bool	--->	flaot
+
+None	--->	flaot
+
+str	--->	float
+
+list	--->	flaot
+
+tuple
+
+set
+
+dict
