@@ -1,0 +1,19 @@
+Float () -
+
+int -----> float -----> success
+
+complex -----> float -----> TypeError: can't convert complex to float
+
+bool -----> float -----> success
+
+None -----> float -----> NameError: name 'none' is not defined
+
+list -----> float ----->TypeError: float() argument must be a string or a number
+
+tuple -----> float -----> TypeError: float() argument must be a string or a number
+
+set -----> float -----> TypeError: float() argument must be a string or a number
+
+Dic -----> float -----> NameError: name 'n' is not defined
+
+str -----> float -----> TypeError: unsupported operand type(s) for /: 'str' and 'str'

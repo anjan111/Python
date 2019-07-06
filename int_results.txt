@@ -1,0 +1,19 @@
+Int():
+
+Float data 16.07 ----> int -----> success
+
+bool data ----> int -----> success
+
+Complex data ----- int ------  TypeError: can't convert complex to int
+
+String ----->  int ------> ValueError: invalid literal for int() with base 10: 'Apoorva'
+
+None -----> int -----> NameError: name 'none' is not defined
+
+list -----> int -----> TypeError: int() argument must be a string or a number, not 'list'
+
+Tupple -----> int -----> TypeError: int() argument must be a string or a number, not 'tuple'
+
+set -----> int -----> TypeError: int() argument must be a string or a number, not 'se
+
+Dict -----> int -----> NameError: name 'n' is not defined
