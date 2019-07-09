@@ -1,0 +1,55 @@
+# wap find given number is even number or not using bitwise operator
+
+0 ---->  0000
+2 ---->  0010
+4 ---->  0100
+6 ---->  0110
+10--->  1010
+
+# wap find given number is odd number or not using bitwise operator
+1 ---->  0001
+3 ---->  0011
+5 ---->  0101
+7 ---->  0111
+13--->  1101
+
+# wap find N-bit position is   O or  1   of any number 
+
+N-bit --> 5
+num ---> 63 ---->  0011 1111
+1 <<5-------------> 0010 0000
+num &(1<<5)        0010 0000--->  NonZero  then N-bit is 1
+
+#wap  toggle the N- bit position of any number
+
+N-bit --> 5
+num ---> 63 ---->  		0011 1111
+1 <<5-------------> 		0010 0000
+num=num ^(1<<5)                        0001 1111--->  convert to decimal
+
+# wap set The N - bit position of any number
+
+
+N-bit --> 5
+num ---> 31 ---->  		0001 1111
+1 <<5-------------> 		0010 0000
+num=num | (1<<5)        	0011 1111--->  convert to decimal
+
+
+# wap clear the N -bit Position of any number 
+
+
+N-bit --> 5
+num ---> 31 ---->  		0011 1111
+1 <<5-------------> 		0010 0000
+~(1<<5)			1101 1111
+num=num &(~(1<<5))        	0001 1111--->  convert to decimal
+
+
+# wap toggle the M-bit to N-bit position of any number
+
+# wap set the M-bit to N-bit position of any number
+
+# wap clear the M-bit to N-bit position of any number
+
+# wap given number is power of 2 or not 
